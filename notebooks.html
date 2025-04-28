@@ -5,8 +5,9 @@
     <meta name="theme-color" content="#00ff99">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notebooks - TiConect</title>
-    <link rel="stylesheet" href="notebooks.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="csspages/notebooks.css">
+    <link rel="stylesheet" href="header.css"> <!---PARA AS CONF. DO HEA-->
+    <link rel="icon" href="img/icoenotebook.png">
 
 </head>
 <body>
@@ -21,11 +22,10 @@
           <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Início</a></li>
             <li><a href="notebooks.html">Notebooks</a></li>
-            <li><a href="#marketplace">Computadores</a></li>
-            <li><a href="notebooks.html">Hardware</a></li>
-            <li><a href="#turismo">Cursos Ti</a></li>
-            <li><a href="#painel" style="background-color: aliceblue; color: blue; border-radius: 4px; padding: 7px;">BLOG</a></li>
-          </ul>
+            <li><a href="computadores.html">Computadores</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="cursosti.html">Cursos Ti</a></li>
+            <li><a href="blog.html" id="btnblog">BLOG</a></li>
         </nav>
       </header>
     <div class="container">
@@ -187,23 +187,11 @@
         </div>
     </div>
 
-    <footer>
-        <img src="img/logo ti conect branca.png" alt="">
-    </footer>
-    
-
     <a href="index.html">
         <img src="img/btn voltar.png" alt="" id="btnvoltar">
     </a>
 
 
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-links');
-      
-        hamburger.addEventListener('click', () => {
-          navLinks.classList.toggle('active');
-        });
-      </script>
+    <script src="header.js"></script>
 </body>
 </html>

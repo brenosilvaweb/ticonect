@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ti Conect</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
   <link rel="icon" href="img/iconepc.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -21,11 +23,10 @@
       <ul class="nav-links" id="nav-links">
         <li><a href="index.html">Início</a></li>
         <li><a href="notebooks.html">Notebooks</a></li>
-        <li><a href="#marketplace">Computadores</a></li>
-        <li><a href="notebooks.html">Hardware</a></li>
-        <li><a href="#turismo">Cursos Ti</a></li>
-        <li><a href="#painel" id="btnblog">BLOG</a></li>
-      </ul>
+        <li><a href="computadores.html">Computadores</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+        <li><a href="cursosti.html">Cursos Ti</a></li>
+        <li><a href="blog.html" id="btnblog">BLOG</a></li>
     </nav>
   </header>
   
@@ -39,19 +40,19 @@
             Ti Conect, reunimos o que há de melhor em informação, dicas práticas e novidades tecnológicas, para você se atualizar, evoluir e aproveitar todas as oportunidades do mundo digital.
           </p>
           <div id="links">
-            <a href="">
+            <a href="notebooks.html">
               Notebooks
             </a>
-            <a href="">
+            <a href="computadores.html">
               Computadores
             </a>
-            <a href="">
+            <a href="hardware.html">
               Hardware
             </a>
-            <a href="">
+            <a href="cursosti.html">
               Cursos Ti
             </a>
-            <a href="">
+            <a href="blog.html">
               Blog
             </a>
           </div>
@@ -89,7 +90,7 @@
             </p>
           </div>
           <div class="imgapresentacao">
-            <img src="img/note 2.jpeg" alt="">
+            <img src="img/fotopc.jpg" alt="">
           </div>
           <a href="">
             Ver Computadores
@@ -152,98 +153,84 @@
 
       </section>
 
-        <!--SECTION NOTEBOOKS--->
-        <!--SECTION NOTEBOOKS--->
-        <div class="home-container">
-        
-            <section class="home-destaques">
-              <h2 class="home-titulo-destaques">Nossos Destaques</h2>
-              <div class="home-grid-destaques">
-        
-                <div class="home-card">
-                  <div class="home-img"><img src="img/note 2.jpeg" alt="Computadores"></div>
-                  <div class="home-conteudo">
-                    <span class="home-titulo">Computadores</span>
-                    <span class="home-info">Notebooks, desktops e acessórios</span>
-                    <span class="home-info">Para estudo, trabalho ou jogos</span>
-                    <span class="home-info">As melhores marcas do mercado</span>
-                    <div class="home-rodape">
-                      <button class="home-btn">Explorar Computadores</button>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="home-card">
-                  <div class="home-img"><img src="img/note 2.jpeg" alt="Notebooks"></div>
-                  <div class="home-conteudo">
-                    <span class="home-titulo">Notebooks</span>
-                    <span class="home-info">Notebooks, desktops e acessórios</span>
-                    <span class="home-info">Para estudo, trabalho ou jogos</span>
-                    <span class="home-info">As melhores marcas do mercado</span>
-                    <div class="home-rodape">
-                      <button class="home-btn">
-                        <a href="notebooks.html">Ver Notebooks</a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="home-card">
-                  <div class="home-img"><img src="img/note 2.jpeg" alt="Cursos TI"></div>
-                  <div class="home-conteudo">
-                    <span class="home-titulo">Cursos TI</span>
-                    <span class="home-info">Programação, redes e mais</span>
-                    <span class="home-info">Cursos online e presenciais</span>
-                    <span class="home-info">Certificados reconhecidos</span>
-                    <div class="home-rodape">
-                      <button class="home-btn">Ver Cursos</button>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="home-card">
-                  <div class="home-img"><img src="img/note 2.jpeg" alt="Blog"></div>
-                  <div class="home-conteudo">
-                    <span class="home-titulo">Blog</span>
-                    <span class="home-info">Dicas e novidades de tecnologia</span>
-                    <span class="home-info">Tutoriais e guias práticos</span>
-                    <span class="home-info">Atualizações semanais</span>
-                    <div class="home-rodape">
-                      <button class="home-btn">Acessar Blog</button>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="home-card">
-                  <div class="home-img"><img src="img/note 2.jpeg" alt="Hardware"></div>
-                  <div class="home-conteudo">
-                    <span class="home-titulo">Hardware</span>
-                    <span class="home-info">Peças e componentes</span>
-                    <span class="home-info">Upgrades para seu PC</span>
-                    <span class="home-info">Alta performance garantida</span>
-                    <div class="home-rodape">
-                      <button class="home-btn">Conferir Hardware</button>
-                    </div>
-                  </div>
-                </div>
-        
-              </div>
-            </section>
-          </div>
+      <section class="details-section">
+        <h2>Perguntas Frequentes</h2>
+        <div class="details-container">
+            <details class="detail-item">
+                <summary>Qual o objetivo do Site Ti Conect?</summary>
+                <p>This project is designed to showcase a responsive and interactive details section. It uses HTML and CSS to create a visually appealing accordion-style FAQ section that expands when clicked.</p>
+            </details>
+            <details class="detail-item">
+                <summary>Pergunta 02</summary>
+                <p>You can contribute by providing feedback, suggesting new features, or submitting pull requests to the repository. Collaboration is always welcome!</p>
+            </details>
+            <details class="detail-item">
+                <summary>Pergunta 03</summary>
+                <p>The section is built using HTML for structure and CSS for styling, with a focus on responsiveness and smooth animations for a great user experience.</p>
+            </details>
+        </div>
+    </section>
+
     </main>
+    <footer>
+      <section id="internofooter">
+          <div id="sobre">
+              <img src="img/logo ti conect branca.png" alt="Logo Ti Conect">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ipsa reiciendis aspernatur voluptatibus voluptatum quas harum, eaque atque modi maiores incidunt error vero eveniet mollitia ea quidem pariatur, aliquid fuga.</p>
+          </div>
+          <div id="links">
+              <h1>Links</h1>
+              <a href="#">
+                  <span>
+                      <img src="img/icoenotebook.png" alt="Notebooks">
+                      Notebooks
+                  </span>
+              </a>
+              <a href="#">
+                  <span>
+                      <img src="img/iconepc.png" alt="Computadores">
+                      Computadores
+                  </span>
+              </a>
+              <a href="#">
+                  <span>
+                      <img src="img/iconeblog.png" alt="Blog">
+                      Blog
+                  </span>
+              </a>
+              <a href="#">
+                  <span>
+                      <img src="img/iconecurso.png" alt="Curso">
+                      Curso
+                  </span>
+              </a>
+              <a href="#">
+                  <span>
+                      <img src="img/iconeprocessador.png" alt="Hardware">
+                      Hardware
+                  </span>
+              </a>
+          </div>
+          <div id="desenvolvedores">
+              <h1>Desenvolvedores</h1>
+              <p>Conheça nossa equipe:</p>
+              <ul>
+                  <li><a href="#">Breno Silva | Tec. informática |</a></li>
+                  <li><a href="#">João Victor | Tec. informática |</a></li>
+                  <li><a href="#">Denilson | Tec. informática |</a></li>
+                  <li><a href="#">Danilo | Tec. informática |</a></li>
+                  <li><a href="#">Lucas | Tec. informática |</a></li>
+                  <li><a href="#">Pedro Almeida - UI/UX</a></li>
+                  <li><a href="#">Pedro Almeida - UI/UX</a></li>
+              </ul>
+          </div>
+      </section>
+      <div class="footer-bottom">
+          <p>© 2025 - Ti Conect - Projeto Integrador</p>
+      </div>
+  </footer>
 
 
-
-
-
-    <script>
-      const hamburger = document.getElementById('hamburger');
-      const navLinks = document.getElementById('nav-links');
-    
-      hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-      });
-    </script>
-    
+    <script src="header.js"></script>
 </body>
 </html>
