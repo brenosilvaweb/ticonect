@@ -20,6 +20,10 @@
     width: 380px;
 }
 
+#iniciosite #internoiniciosite img:hover{
+    transform: scale(1.049);
+    filter: brightness(1.2) drop-shadow(0 0 20px rgb(8, 0, 255));}
+
 #iniciosite #internoiniciosite p{
     color: white;
     width: 80%;
@@ -48,6 +52,11 @@
     font-weight: 700;
 }
 
+#iniciosite #internoiniciosite #links a:hover{
+    background-color: transparent;
+    border: 0.5px solid #ff0000;
+}
+
 
 .apresentacao{
     display: flex;
@@ -59,9 +68,15 @@
 .apresentacao .itenapresentação{
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.181);
     margin: 20px;
+    padding: 20px 0;
     border-radius: 10px;
     border-left: #318aff solid 0.5px;
     border-bottom: #318aff solid 0.5px;
+}
+
+.apresentacao .itenapresentação:hover{
+    transform: scale(1.020);
+    box-shadow: 0px 3px 18px rgba(21, 0, 253, 0.411);
 }
 
 .apresentacao .itenapresentação h1{
