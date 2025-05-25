@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    margin: 0 auto;
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho img {
+    margin: 40px auto 40px auto;
+}
+
+.cabecalho p {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.categoria {
+    margin:80px
+}
+
+.titulo-categoria {
+    font-size: 24px;
+    color: #e3a600;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.produto {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 350px;
+    gap: 30px;
+}
+
+.imagem-produto {
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.imagem-produto img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+
+
+.conteudo-produto {
+    padding: 20px;
+}
+
+.titulo-produto {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff99;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.especificacao-produto {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.rodape-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preco-produto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e3a600;
+}
+
+.botao-produto {
+    background: #e3a600;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botao-produto:hover {
+    background: #1d4ed8;
+}
+
+
+footer{
+    margin-top: 40px;
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer img{
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+
+#btnvoltar{
+    position: fixed;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media (max-width:420px){
+
+    .cabecalho img{
+        height: 50px;
+    }
+
+    .categoria{
+        width: 100%;
+        margin: 0 ;
+    }
+    .produto {
+        width: 80%;
+    }
+}
+
