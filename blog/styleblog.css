@@ -14,7 +14,7 @@
 
 #feed-noticias .noticia{
     display: flex;
-    border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+    border-bottom: 2px solid #004aad;
     margin-bottom: 30px;
 }
 
@@ -39,7 +39,7 @@
 #feed-noticias .noticia .texto h1{
     font: normal 18pt arial;
     font-weight: 700;
-    color: #A6130A;
+    color: #004aad;
     width: 95%;
     margin: 0 auto 15px;
 }
@@ -48,7 +48,7 @@
     width: 95%;
     margin: auto;
     font: normal 12pt arial;
-    color: #C56963;
+    color: #004aad;
 }
 
 @media (max-width:1100px){
